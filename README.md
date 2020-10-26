@@ -1,2 +1,7 @@
+![roo-proxy](docs/roo.jpg)
+
 # roo-proxy
-Some experiments on using rust/envoy-plugins for the Knative Queue Proxy
+
+Some experiments with using rust/envoy-plugins for the Knative Queue Proxy
+
+
