@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: config-deployment
+  namespace: knative-serving
+  labels:
+    serving.knative.dev/release: devel
+data:
+  queueSidecarImage: ko://github.com/julz/roo-proxy/cmd/mtls/queue
